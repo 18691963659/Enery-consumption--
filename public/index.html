@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>
+        高新·天谷雅舍智能监控大屏
+    </title>
+    <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            // serviceHost: "http://192.168.3.3:8011/_AMapService",
+            // 例如 ：serviceHost:'http://1.1.1.1:80/_AMapService',
+        };
+    </script>
+    <script src="../src/utils/util.js"></script>
+    <script src="../src/utils/comfortmodels.js"></script>
+    <script src="../src/utils/psychrometrics.js"></script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=3f5e6ed45592c006dacc737c05237f0b"></script>
+    <!-- <script src="../../smart-screen/src/utils/video/demo.js"></script>
+    <script src="../../smart-screen/src/utils/video/foundation.js"></script>
+    <script src="../../smart-screen/src/utils/video/jquery-1.7.1.min.js"></script>
+    <script src="../../smart-screen/src/utils/video/jquery-ui.js"></script>
+    <script src="../../smart-screen/src/utils/video/jquery.js"></script>
+    <script src="../../smart-screen/src/utils/video/jquery.ui.core.js"></script>
+    <script src="../../smart-screen/src/utils/video/json2.js"></script>
+    <script src="../../smart-screen/src/utils/video/modifyUI.js"></script>
+    <script src="../../smart-screen/src/utils/video/WebVideoCtrl.js"></script>
+    <script src="../../smart-screen/src/utils/video/sea-3.0.1.min.js"></script>
+    <script src="../../smart-screen/src/utils/video/require-2.3.3.min.js"></script> -->
+	<script src="../src/common/pmvppd/comfortmodels.js"></script>
+	<script src="../src/common/pmvppd/psychrometrics.js"></script>
+	<script src="../src/common/pmvppd/util.js"></script>
+</head>
+
+<body>
+    <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>

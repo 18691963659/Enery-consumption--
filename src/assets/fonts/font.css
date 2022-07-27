@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'design-title';
+    src: url('design-title.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PingFang';
+    src: url('PingFang.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'dsdigib';
+    src: url('dsdigib.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
